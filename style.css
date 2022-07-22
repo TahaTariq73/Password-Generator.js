@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(247, 247, 247);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgb(228, 228, 228);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.container h2{
+    text-align: center;
+    color: rgb(79 70 229);
+    margin-bottom: 10px;
+}
+
+.output{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(192, 192, 192);
+    margin-bottom: 1rem;
+    padding: 5px 0.6rem;
+    border-radius: 0.6rem;
+}
+
+.output h4{
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.output button{
+    background-color: rgb(99 102 241);
+    border: none;
+    padding: auto;
+    color: white;
+    padding: 0px 0.9rem;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.output button:hover{
+    background-color: rgb(243, 243, 243);
+    color: rgb(99 102 241);
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1.2rem 0px;
+    padding: 12px 0px;
+    margin-bottom: 12px;
+}
+
+.number{ margin-left: 64%; }
+
+.checkbox{
+    width: 1rem;
+    margin-left: 88%;
+    background-color: rgb(79 70 229);
+}
+
+.generate-btn{
+    background-color: rgb(79 70 229);
+    color: white;
+    border: 2px solid white;
+    font-family: 'Baloo 2', cursive;
+    padding: 7px 0px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.generate-btn:hover{
+    background-color: rgb(243, 243, 243);
+    color: rgb(99 102 241);
+}
